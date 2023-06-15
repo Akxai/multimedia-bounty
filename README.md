@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Multimedia App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a file manager app that allows you to manage and view various types of files. It provides search and filter functionalities to help you easily find and organize your files.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Added functionalities
 
-### `npm start`
+- Search: You can search for files by their names or types. The search functionality dynamically updates the file list as you type.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Filter: You can filter files by their types. Choose from options like video, audio, document, or image to view files of a specific type.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Previous functionalities
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Rename: You can rename a selected file by clicking the "Rename" button and entering a new name.
+- Delete: You can delete a selected file by clicking the "Delete" button. The file will be permanently removed from the app.
+- Files Breakdown: Clicking the "Files Breakdown" button displays a modal window showing a breakdown of file types using pie and bar charts.
+- Download: You can download a selected file by clicking the "Download" button. The file will be opened in a new tab for downloading.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/Akxai/multimedia-bounty.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+   ```bash
+   cd multimedia-bounty
+   npm install
 
-### `npm run eject`
+3. Start the app:
+   ```bash
+   npm start
+The app will be running at http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Use the search bar to search for files by name or type. The file list will update dynamically as you type.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Use the filter dropdown to filter files by type. Selecting a specific file type will update the file list to display only files of that type.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. Perform file management actions using the buttons provided:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    - Rename: Click the "Rename" button and enter a new name for the selected file.
+    - Delete: Click the "Delete" button to permanently delete the selected file.
+    - Files Breakdown: Click the "Files Breakdown" button to view a modal window with pie and bar charts showing the breakdown of file types.
+    - Download: Click the "Download" button to open the selected file in a new tab for downloading.
+  
+## Technologies Used
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - React: A JavaScript library for building user interfaces.
+  - Chart.js: A flexible JavaScript charting library for visualizing data.

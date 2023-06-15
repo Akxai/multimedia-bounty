@@ -31,8 +31,9 @@ This is a file manager app that allows you to manage and view various types of f
    npm install
 
 3. Start the app:
-   ```bash
+   ```
    npm start
+   ```
    The app will be running at http://localhost:3000.
 
 4. Use the search bar to search for files by name or type. The file list will update dynamically as you type.

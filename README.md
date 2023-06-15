@@ -4,11 +4,39 @@ This is a file manager app that allows you to manage and view various types of f
 
 ## Features
 
-### Added functionalities
+## Added functionalities
 
-- Search: You can search for files by their names or types. The search functionality dynamically updates the file list as you type.
+### Search: 
+You can search for files by their names or types. The search functionality dynamically updates the file list as you type.
 
-- Filter: You can filter files by their types. Choose from options like video, audio, document, or image to view files of a specific type.
+The search functionality allows you to search for files based on their names or types. Here's how it works:
+
+   - In the app's user interface, you'll find a search input box where you can enter your search query.
+
+   - As you type in the search input, the app dynamically filters the file list based on the search query.
+
+   - The filtering process compares the lowercase versions of the file names and types with the lowercase version of the search query. If a file's name or type contains the search query, it will be included in the filtered file list.
+
+   - The filtered file list is updated in real-time, displaying only the files that match the search query.
+
+### Filter: 
+You can filter files by their types. Choose from options like video, audio, document, or image to view files of a specific type.
+
+The filter functionality allows you to filter files based on their types. Here's how it works:
+
+   - In the app's user interface, you'll find a filter dropdown menu that lists different file types such as video, audio, document, and image.
+
+   - To apply a filter, you can select a specific file type from the filter dropdown menu.
+
+   - When you select a file type, the app filters the file list to display only the files that match the selected type.
+
+   - The filtered file list is updated accordingly, showing only files of the selected type.
+
+   - If you want to view all files again, you can choose the "All" or "None" option in the filter dropdown menu. The "All" option displays all available file types, while the "None" option removes any applied filters, showing all files.
+
+
+By combining the search and filter functionalities, you can easily search for specific files by name or type and further narrow down the file list by filtering based on file types. This provides a convenient way to find and manage your files within the file manager app.
+
 
 ### Previous functionalities
 

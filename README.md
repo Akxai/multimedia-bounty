@@ -4,7 +4,7 @@ This is a file manager app that allows you to manage and view various types of f
 
 ## Features
 
-## Added functionalities
+## Added functionalities (Search and Filter)
 
 ### Search: 
 You can search for files by their names or types. The search functionality dynamically updates the file list as you type.
